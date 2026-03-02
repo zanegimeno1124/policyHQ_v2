@@ -21,9 +21,9 @@ export const GlobalAudit: React.FC = () => (
             </h2>
             
             <p className="text-slate-400 font-mono text-sm md:text-base mb-12 max-w-lg leading-8 text-left bg-slate-900/50 p-6 rounded-2xl border border-slate-800">
-                <span className="text-green-500 mr-2">>></span> INITIALIZING AUDIT PROTOCOLS...<br/>
-                <span className="text-green-500 mr-2">>></span> ENCRYPTING HISTORICAL LEDGERS...<br/>
-                <span className="text-green-500 mr-2">>></span> ESTABLISHING SECURE UPLINK...
+                <span className="text-green-500 mr-2"></span> INITIALIZING AUDIT PROTOCOLS...<br/>
+                <span className="text-green-500 mr-2"></span> ENCRYPTING HISTORICAL LEDGERS...<br/>
+                <span className="text-green-500 mr-2"></span> ESTABLISHING SECURE UPLINK...
             </p>
 
             {/* Fake Loader */}

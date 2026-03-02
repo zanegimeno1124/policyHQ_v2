@@ -145,7 +145,7 @@ const FILTER_ACTIVE_STYLE = "bg-brand-50 border-brand-200 text-brand-700";
 
 const SimpleDateRangePicker: React.FC<{
     value: DateRange | null;
-    onChange: (range: DateRange | null) void;
+    onChange: (range: DateRange | null) => void;
     placeholder?: string;
 }> = ({ value, onChange, placeholder = "Select Dates" }) => {
     const [isOpen, setIsOpen] = useState(false);
